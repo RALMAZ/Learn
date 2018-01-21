@@ -3,15 +3,30 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Vuex from 'vuex'
 
 import Framework7 from 'framework7';
+import axios from 'axios';
 
 Vue.config.productionTip = false
+Vue.use(Vuex)
 
-/* eslint-disable no-new */
+
+const store = new Vuex.Store({
+  state: {
+    count: 0
+  },
+  mutations: {
+    increment (state) {
+      state.count++
+    }
+  }
+})
+
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
