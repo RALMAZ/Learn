@@ -8,4 +8,7 @@
 6. :rainbow: UI components
 7. :warning: Testing with the Jest example
 8. :recycle: Animations
-9. :rocket: Hyperspace
+9. :pizza: Authorization & authentication
+10. :performing_arts: Portals
+...
+999. :rocket: Hyperspace
