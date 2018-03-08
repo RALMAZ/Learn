@@ -9,6 +9,6 @@
 7. :warning: Testing with the Jest example
 8. :recycle: Animations
 9. :pizza: Authorization & authentication
-10. :performing_arts: Portals
+10. :performing_arts: Portals  
 ...
 999. :rocket: Hyperspace
