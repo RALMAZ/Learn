@@ -1,13 +1,18 @@
 ## :bangbang: This is just my opinion and not a set of rules :bangbang:
 
 1. :file_folder: Structure of the catalog
-2. :1234: Order of functions in the component
-3. :orange_book: Order in tags
-4. :construction: Set of frequent errors
-5. :helicopter: Lazy loading of components
-6. :rainbow: UI components
-7. :warning: Testing with the Jest example
-8. :recycle: Animations
-9. :pizza: Authorization & authentication
-10. :performing_arts: Portals  
+1. :1234: Order of functions in the component
+1. :orange_book: Order in tags
+1. :construction: Set of frequent errors
+1. :helicopter: Lazy loading of components
+1. :rainbow: UI components
+1. :warning: Testing with the Jest example
+1. :recycle: Animations
+1. :pizza: Authorization & authentication
+1. :performing_arts: Portals  
+1. :mag: Search (Algolia)
+1. :gun: Reactive
+  
+... ... ...
+  
 999. :rocket: Hyperspace
