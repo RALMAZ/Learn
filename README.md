@@ -11,7 +11,8 @@
 1. :pizza: Authorization & authentication
 1. :performing_arts: Portals  
 1. :mag: Search (Algolia)
-1. :gun: Reactive
+1. :cyclone: Reactive
+1. :gun: SSR
   
 ... ... ...
   
