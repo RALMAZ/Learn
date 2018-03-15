@@ -13,6 +13,7 @@
 1. :mag: Search (Algolia)
 1. :cyclone: Reactive
 1. :gun: SSR
+1. :dolphin: Optimization
   
 ... ... ...
   
