@@ -1,4 +1,4 @@
-## :bangbang: This is just my opinion and not a set of rules :bangbang:
+## :bangbang: This not a set of rules :bangbang:
 
 1. :file_folder: Structure of the catalog
 1. :1234: Order of functions in the component
@@ -18,3 +18,9 @@
 ... ... ...
   
 999. :rocket: Hyperspace
+  
+  
+
+  
+## Contribution  
+Your contributions and suggestions are heartily welcome  
