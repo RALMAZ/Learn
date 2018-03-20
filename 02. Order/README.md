@@ -1,10 +1,11 @@
 # Order in component:
 
+## 1. Name
 ```javascript
-// 1. Name
   name: "MyComponent",
-
-// 2. Assets
+```
+## 2. Assets
+```javascript
   mixins: [ myMixin ],
   
   components: {
@@ -20,8 +21,10 @@
       return value;
     }
   },
+```
 
-// 3. Props
+## 3. Props
+```javascript
   props: {
     some: {
       type: Object | Array,
@@ -34,15 +37,19 @@
       validator: value => value
     }
   }
+```
 
-// 4. Data
+## 4. Data
+```javascript
   data() {
     return {
       some: 1
     }
   }
+```
 
-// 5. Computed
+## 5. Computed
+```javascript
   computed: {
     someComputed() {
        return 1;
@@ -61,14 +68,18 @@
       someValue = state => state.someValue
     })
   }
+```
 
-// 6. Methods
+## 6. Methods
+```javascript
   methods: {
     someMethod() {
       //...
     }
   }
+```
 
-// 7. Lifecycle hooks
-
+## 7. Lifecycle hooks
+```javascript
+s
 ```
