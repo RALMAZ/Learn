@@ -7,6 +7,7 @@
 ->   :open_file_folder: folder1   
 ->   :open_file_folder: folder2   
 ->   :open_file_folder: ...   
+:open_file_folder: directives  
 :open_file_folder: router  
 :open_file_folder: store  
 ->   :open_file_folder: modules   
