@@ -128,7 +128,7 @@
 
 ## 7. Render
 ```javascript
-  render: () => {
+  render: (createElement) => {
     return '';
   }
 ```
