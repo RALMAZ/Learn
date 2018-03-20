@@ -1,13 +1,21 @@
 # Order in component:
 
-## 1. Name
+## 1. Options
 ```javascript
   name: "MyComponent",
+  
+  delimiters: ["<%","%>"],
+  
+  functional: false,
+  
+  model: {
+    prop: 'checked',
+    event: 'change'
+  }
 ```
+
 ## 2. Assets
 ```javascript
-  mixins: [ myMixin ],
-  
   components: {
     OtherComponent
   },
@@ -20,14 +28,36 @@
     myFilter1(value) {
       return value;
     }
-  },
+  }
 ```
 
-## 3. Props
+## 3. Composition
+```javascript
+  mixins: [ myMixin ],
+
+  extends: myComponent2,
+
+  provide () {
+    return {
+      [s]: 'foo'
+    }
+  },
+
+  inject: { s }
+```
+
+## 4. Element
+```javascript
+  el: "#app",
+
+  template: "<div></div>"
+```
+
+## 5. Props
 ```javascript
   props: {
     some: {
-      type: Object | Array,
+      type: String | Object,
       
       required: true,
       
@@ -36,10 +66,15 @@
  
       validator: value => value
     }
+  },
+
+  // propsData is most often used for tests
+  propsData: {
+    some: "hello"
   }
 ```
 
-## 4. Data
+## 6. Data
 ```javascript
   data() {
     return {
@@ -48,7 +83,7 @@
   }
 ```
 
-## 5. Computed
+## 7. Computed
 ```javascript
   computed: {
     someComputed() {
@@ -70,7 +105,16 @@
   }
 ```
 
-## 6. Methods
+## 8. Watch
+```javascript
+  watch: {
+    some: (val) {
+      //...
+    }
+  }
+```
+
+## 9. Methods
 ```javascript
   methods: {
     someMethod() {
@@ -79,56 +123,60 @@
   }
 ```
 
-## 7. Lifecycle hooks
+## 10. Lifecycle hooks
 ```javascript
   beforeCreate() {
     //...
-  }
+  },
 
   created() {
     //...
-  }
+  },
   
   beforeMount() {
     //...
-  }
+  },
   
   mounted() {
     //...
-  }
+  },
   
   beforeUpdate() {
     //...
-  }
+  },
   
   updated() {
     //...
-  }
+  },
   
   activated() {
     //...
-  }
+  },
   
   deactivated() {
     //...
-  }
+  },
   
   beforeDestroy() {
     //...
-  }
+  },
   
   destroyed() {
     //...
-  }
+  },
   
   errorCaptured: (error) => {
     console.log(error);
   }
 ```
 
-## 7. Render
+## 11. Render
 ```javascript
   render: (createElement) => {
+    return '';
+  },
+
+  renderError () {
     return '';
   }
 ```
