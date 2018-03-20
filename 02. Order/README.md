@@ -81,5 +81,47 @@
 
 ## 7. Lifecycle hooks
 ```javascript
-s
+  beforeCreate() {
+    //...
+  }
+
+  created() {
+    //...
+  }
+  
+  beforeMount() {
+    //...
+  }
+  
+  mounted() {
+    //...
+  }
+  
+  beforeUpdate() {
+    //...
+  }
+  
+  updated() {
+    //...
+  }
+  
+  activated() {
+    //...
+  }
+  
+  deactivated() {
+    //...
+  }
+  
+  beforeDestroy() {
+    //...
+  }
+  
+  destroyed() {
+    //...
+  }
+  
+  errorCaptured: (error) => {
+			console.log(error);
+	}
 ```
