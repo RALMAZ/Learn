@@ -122,6 +122,13 @@
   }
   
   errorCaptured: (error) => {
-			console.log(error);
-	}
+    console.log(error);
+  }
+```
+
+## 7. Render
+```javascript
+  render: () => {
+    return '';
+  }
 ```
