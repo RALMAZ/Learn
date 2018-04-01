@@ -15,7 +15,7 @@
 1. :gun: SSR
 1. :dolphin: Optimization
   
-... ... ...
+...  
   
 999. :rocket: Hyperspace
   
