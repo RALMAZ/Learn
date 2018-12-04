@@ -1,5 +1,8 @@
-## :bangbang: This not a set of rules :bangbang:
+## :bangbang: :bangbang: :bangbang:
+  
+## Archived. Current address  [VueBest/VueBest](https://github.com/VueBest/vuebest.github.io)
 
+## :bangbang: :bangbang: :bangbang:
 1. :file_folder: Structure of the catalog
 1. :1234: Order of functions in the component
 1. :orange_book: Order in tags
