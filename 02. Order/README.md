@@ -76,11 +76,9 @@
 
 ## 6. Data
 ```javascript
-  data() {
-    return {
+  data: () => ({
       some: 1
-    }
-  }
+  })
 ```
 
 ## 7. Computed
