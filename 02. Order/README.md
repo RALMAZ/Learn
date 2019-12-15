@@ -85,7 +85,7 @@
 ```javascript
   computed: {
     someComputed() {
-       return 1;
+       return 1
     }
   }
   // or if you use mapstate
@@ -106,7 +106,7 @@
 ## 8. Watch
 ```javascript
   watch: {
-    some: (val) {
+    some(newValue, oldValue) {
       //...
     }
   }
